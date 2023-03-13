@@ -1,0 +1,56 @@
+.buttonPrev {
+  font-size: 20px;
+  background-color: rgb(235, 235, 222);
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.buttonNext {
+  font-size: 20px;
+  background-color: rgb(235, 235, 222);
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.buttonPrev:hover {
+  transition-duration: 0.2s;
+  background-color: #101010;
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.buttonNext:hover {
+  transition-duration: 0.2s;
+  background-color: #101010;
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.spanPage {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(226, 223, 217);
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+}
+
+.divPages {
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 15px;
+}

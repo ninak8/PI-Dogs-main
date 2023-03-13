@@ -1,0 +1,76 @@
+.navBar {
+  background-color: #101010;
+  position: sticky;
+  top: 0px;
+  flex-direction: row;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonCreate {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(226, 223, 217);
+  padding: 9px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  background-color: #101010;
+}
+
+.buttonCreate:hover {
+  transition-duration: 0.2s;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  color: #101010;
+}
+
+.buttonRefresh {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(226, 223, 217);
+  padding: 9px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  background-color: #101010;
+}
+
+.buttonRefresh:hover {
+  transition-duration: 0.2s;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  color: #101010;
+}
+
+@media (max-width: 900px) {
+  .navBar {
+    position: sticky;
+    top: 0px;
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (max-width: 470px) {
+  .navBar {
+    position: sticky;
+    top: 0px;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonRefresh {
+    display: none;
+  }
+
+  .buttonCreate {
+    margin-top: 2px;
+    border: 0px;
+    padding-bottom: 0px;
+  }
+}
